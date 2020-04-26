@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'core.apps.CoreConfig',
     'produto.apps.ProdutoConfig',
+    'estoque.apps.EstoqueConfig',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'estoque.urls'
+ROOT_URLCONF = 'sistema_estoque.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'estoque.wsgi.application'
+WSGI_APPLICATION = 'sistema_estoque.wsgi.application'
 
 
 # Database
